@@ -2,6 +2,7 @@
  
 // Load and initialize database class 
 require_once 'DB.class.php'; 
+
 $db = new DB(); 
  
 if(($_POST['action'] == 'addNew')){
